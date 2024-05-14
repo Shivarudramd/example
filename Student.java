@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends Student_ext{
     String name;
     int Birthyear;
     public Student(String name , int Birthyear ){
@@ -15,6 +15,8 @@ public class Student {
     public static void main(String[] args) {
         Student s1=new Student("shivarudra", 2005);
         s1.calculateage(2005);
-        s1.dispaly(); 
+        s1.dispaly();
+        System.out.println("Course and marks");
+        s1.displayStud();
     }
 }
